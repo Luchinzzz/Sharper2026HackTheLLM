@@ -91,7 +91,7 @@ def message():
     state["history"].append({"role": "assistant", "content": reply})
     state["attempts"][level] += 1
 
-    solved_now = check_flag(level, reply)
+    solved_now = check_flag(level, reply, bot=bot)
     if solved_now:
         state["solved"][level] = True
 
