@@ -55,16 +55,16 @@ def start():
     return jsonify({
         "response": True,
         "session_id": session_id,
-        "level": _level_payload(1),
+        "level": _level_payload(1, name),
     })
 
 
-def _level_payload(level):
+def _level_payload(level, name):
     info = LEVELS[level]
     return {
         "number": level,
         "title": info["title"],
-        "mission": info["mission"],
+        "mission": info["mission"].format(name=name),
         "skill": info["skill"],
         "badge": info["badge"],
     }
@@ -91,7 +91,7 @@ def message():
     state["history"].append({"role": "assistant", "content": reply})
     state["attempts"][level] += 1
 
-    solved_now = check_flag(level, reply, bot=bot)
+    solved_now = check_flag(level, reply, name=state["name"], bot=bot)
     if solved_now:
         state["solved"][level] = True
 
@@ -128,7 +128,7 @@ def next_level():
     state["level"] += 1
     state["history"] = []  # conversazione nuova, ProfBot "dimentica" il livello precedente
 
-    return jsonify({"response": True, "level": _level_payload(state["level"])})
+    return jsonify({"response": True, "level": _level_payload(state["level"], state["name"])})
 
 
 @app.route("/leaderboard", methods=["GET"])
