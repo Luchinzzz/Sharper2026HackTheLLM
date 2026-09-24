@@ -1,0 +1,45 @@
+<svg width="128" height="128" viewBox="170 100 460 460" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="400" cy="420" r="340" fill="#e6ecfa"/>
+  <!-- braccia -->
+  <path d="M285 520 L215 610" stroke="#1c2a63" stroke-width="40" stroke-linecap="round"/>
+  <circle cx="210" cy="618" r="28" fill="#34427c"/>
+  <path d="M515 520 L605 440" stroke="#1c2a63" stroke-width="40" stroke-linecap="round"/>
+  <line x1="612" y1="436" x2="715" y2="300" stroke="#8a5a3b" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="715" cy="300" r="9" fill="#f2b632"/>
+  <circle cx="610" cy="438" r="28" fill="#34427c"/>
+  <!-- corpo -->
+  <rect x="265" y="470" width="270" height="220" rx="44" fill="#1c2a63"/>
+  <rect x="320" y="510" width="160" height="90" rx="18" fill="#eaf0ff"/>
+  <text x="400" y="575" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-weight="700" font-size="54" fill="#e0453a">A+</text>
+  <rect x="370" y="440" width="60" height="40" fill="#34427c"/>
+  <!-- orecchie -->
+  <rect x="192" y="305" width="36" height="84" rx="14" fill="#f2b632"/>
+  <rect x="572" y="305" width="36" height="84" rx="14" fill="#f2b632"/>
+  <!-- testa -->
+  <rect x="215" y="225" width="370" height="235" rx="62" fill="#1c2a63"/>
+  <rect x="247" y="258" width="306" height="172" rx="42" fill="#eaf0ff"/>
+  <!-- occhiali -->
+  <circle cx="340" cy="335" r="46" fill="#fff" stroke="#1c2a63" stroke-width="11"/>
+  <circle cx="460" cy="335" r="46" fill="#fff" stroke="#1c2a63" stroke-width="11"/>
+  <path d="M386 332 Q400 316 414 332" fill="none" stroke="#1c2a63" stroke-width="10"/>
+  <circle cx="346" cy="340" r="15" fill="#1c2a63"/><circle cx="352" cy="334" r="5" fill="#fff"/>
+  <circle cx="466" cy="340" r="15" fill="#1c2a63"/><circle cx="472" cy="334" r="5" fill="#fff"/>
+  <path d="M362 396 Q400 424 438 396" fill="none" stroke="#1c2a63" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="290" cy="392" r="13" fill="#f7b6b0" opacity=".8"/><circle cx="510" cy="392" r="13" fill="#f7b6b0" opacity=".8"/>
+  <!-- tocco -->
+  <path d="M305 196 L305 244 Q400 272 495 244 L495 196 Z" fill="#111a44"/>
+  <polygon points="400,120 575,184 400,248 225,184" fill="#111a44"/>
+  <polygon points="400,132 548,184 400,236 252,184" fill="#1a2659"/>
+  <path d="M400 184 L548 192 L548 262" fill="none" stroke="#f2b632" stroke-width="7"/>
+  <rect x="536" y="258" width="24" height="44" rx="6" fill="#f2b632"/>
+  <circle cx="400" cy="184" r="11" fill="#f2b632"/>
+  <!-- cattedra -->
+  <rect x="120" y="640" width="560" height="120" rx="14" fill="#8a5a3b"/>
+  <rect x="120" y="640" width="560" height="22" rx="10" fill="#a8744f"/>
+  <rect x="160" y="592" width="120" height="24" rx="4" fill="#2c5cc5"/>
+  <rect x="170" y="568" width="104" height="24" rx="4" fill="#2e9e6a"/>
+  <rect x="155" y="616" width="130" height="26" rx="4" fill="#e0453a"/>
+  <circle cx="600" cy="612" r="30" fill="#e0453a"/>
+  <path d="M600 584 Q603 570 612 564" stroke="#6b3e22" stroke-width="5" fill="none"/>
+  <ellipse cx="620" cy="572" rx="14" ry="7" fill="#2e9e6a" transform="rotate(-25 620 572)"/>
+</svg>
